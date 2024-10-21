@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas algoritma & pemrograman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+
+    <input type="number" id="num1" placeholder="Masukkan angka pertama">
+
+    <input type="number" id="num2" placeholder="Masukkan angka kedua">
+
+    <select id="operation">
+        <option value="add">Penjumlahan</option>
+        <option value="subtract">Pengurangan</option>
+        <option value="multiply">Perkalian</option>
+        <option value="divide">Pembagian</option>
+    </select>
+
+    <button onclick="calculate()">Hitung</button>
+
+    <div id="alert" class="error"></div>
+    <div class="result" id="result"></div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
